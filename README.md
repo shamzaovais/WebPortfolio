@@ -16,48 +16,9 @@
 
 <br />
 
-<br /> <br />
-
-# Installation :arrow_down:
-### You will need to download Git and Node to run this project
-
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
-
 
 #### Make sure you have the latest version of both Git and Node on your computer.
 
-```
-node --version
-git --version
-```
-
-<br />
-
-# Getting Started :dart:
-### Fork and Clone the repo
-
-#### To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```
-git clone hhttps://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-cd developer-portfolio
-```
-### Install packages from the root directory
-```
-npm install
-```
-#### or
-```
-yarn install
-```
-### Start the development server
-```
-npm start
-```
-#### or
-```
-yarn start
 ```
 <br />
 
@@ -190,48 +151,7 @@ yarn start
 <br />
 
 
-Eg:
-```javascript
-export const headerData = {
-    name: '-- YOUR NAME --',
-    title: '-- YOUR TITLE --',
-    desciption:'-- DESCRIPTION --',
-    image: '-- IMAGE --',
-    resumePdf: ''
-}
-
-// You can also import image and PDF from assets as shown below
-
-import resume from '../assets/pdf/resume.pdf'
-import profileImg from '../assets/png/profileImg'
-
-export const headerData = {
-    name: '-- YOUR NAME --',
-    title: '-- YOUR TITLE --',
-    desciption:'-- DESCRIPTION --',
-    image: profileImg,
-    resumePdf: resume
-}
-```
-```javascript
-// EXAMPLE
-export const educationData = [
-    {
-        id: 1,
-        institution: '-- INSTITUTION NAME --',
-        course: '-- COURSE NAME --',
-        startYear: '2017',
-        endYear: '2019'
-    },
-    //
-]
-```
-
 ### Instructions and format for each section can be found inside the data files.
-<br />
-
-## Setting Up Contacts form :envelope_with_arrow:
-> ### Follow these [instructions](https://github.com/hhhrrrttt222111/developer-portfolio/wiki/Contacts) to connect contacts form with Google Sheet
 
 <br />
 
@@ -265,35 +185,6 @@ export const educationData = [
 
 <br />
 
-```html
-    <meta name="description" content="--- SITE DESCRIPTION ---" />
-    <meta property="og:image" content="--- YOUR IMAGE ---">
-    <meta property="og:site_name" content="--- YOUR NAME ---"/>
-    <meta property="og:title" content="--- YOUR NAME ---"/>
-    <meta property="og:url" content="--- YOUR SITE URL ---"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:description" content="--- SITE DESCRIPTION ---"/>
-    <meta property="og:locale" content="---  ---">
-    <meta property="og:image" content="--- YOUR IMAGE ---"/>
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    
-    <meta itemprop="name" content="--- YOUR NAME ---"/>
-    <meta itemprop="url" content="--- YOUR SITE URL ---"/>
-    <meta itemprop="description" content="--- SITE DESCRIPTION ---"/>
-    <meta itemprop="thumbnailUrl" content=""/>
-    <link rel="image_src" href="--- YOUR IMAGE ---"/>
-    <meta itemprop="image" content="--- YOUR IMAGE ---"/>
-    
-    <meta name="twitter:site" content="@--- YOUR TWITTER USERNAME ---">
-    <meta name="twitter:creator" content="@--- YOUR TWITTER USERNAME ---">
-    <meta name="twitter:url" content="--- YOUR SITE URL ---"/>
-    <meta name="twitter:title" content="--- YOUR NAME ---">
-    <meta name="twitter:description" content="--- SITE DESCRIPTION ---">
-    <meta name="twitter:image" content="--- YOUR IMAGE ---">
-    <meta name="twitter:card" content="summary"/>
-
-```
 
 <br />
 
